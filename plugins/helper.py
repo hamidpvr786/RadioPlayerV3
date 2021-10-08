@@ -27,10 +27,10 @@ CHAT=Config.CHAT
 ADMINS=Config.ADMINS
 playlist=Config.playlist
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Developed By @hamidpvr786 😉!"
 HELP_TEXT = """
 🎧 --**Need Help ?**--
-(Join @SafoTheBot For Support)
+(Contact @hamidpvr786)
 
 🏷️ --**Common Commands**-- :
 
@@ -58,7 +58,7 @@ HELP_TEXT = """
 \u2022 `/restart` - update & restart the bot
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@hamidpvr786 | https://t.me/joinchat/FxowyHitL-IwODc1** 👑
 """
 
 
@@ -170,12 +170,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("Devel
+                InlineKeyboardButton("Developer", url="https://t.me/hamidpvr786oper", url="https://t.me/hamidpvr786"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/joinchat/FxowyHitL-IwODc1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/hamidpvr786"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/hamidpvr786/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
@@ -196,12 +197,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("Developer", url="https://t.me/hamidpvr786"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/joinchat/FxowyHitL-IwODc1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/joinchat/FxowyHitL-IwODc1"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/hamidpvr786/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -218,12 +219,12 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("Dev", url="https://t.me/hamidpvr786"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/joinchat/FxowyHitL-IwODc1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/joinchat/FxowyHitL-IwODc1"),
+                InlineKeyboardButton("SOURCE CODE", url="https://github.com/hamidpvr786/RadioPlayerV3"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
